@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>{{title}}</title>
+<head>
+   {{#each cssList}}
+      <link rel='stylesheet' href={{this}} />
+    {{/each}}
+</head>
+
+<body>
+  {{> header}}
+
+  <div class="container">
+    {{{body}}}
+  </div>
+
+  {{!-- {{> footer}} --}}
+  
+ {{#each jsList}}
+   <script src={{this}}></script>
+ {{/each}}
+
+</body>
+
+</html>
