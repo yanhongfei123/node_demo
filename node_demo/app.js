@@ -83,7 +83,7 @@ app.use(
       // url: "mongodb://127.0.0.1:27017/yhf_db",
       // username:'', 
       // password :'',
-      host: "localhost",
+      host: "119.23.227.101",
       port: 27017,
       collection: "sessions", // 存在哪个集合里，默认为sessions
       // 一般connect-mongo会使用session 里cookie设置的的过期时间为准，但是如果session 没设置的话，自己可以利用ttl属性来创建
