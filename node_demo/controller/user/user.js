@@ -40,7 +40,7 @@ class User extends BaseComponent {
         ep.emit('error', '密码错误');
       } else {
         
-        const cityInfo = await this.guessPosition(req);
+      //  const cityInfo = await this.guessPosition(req);
 
         // res.cookie("userId", doc.user_id, {
         //   path: '/',
